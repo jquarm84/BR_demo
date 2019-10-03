@@ -1,0 +1,154 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-size: 18px;
+  color: black;
+  background: white;
+}
+
+/*styling to navigation*/
+.blocknav {
+      font-size: 30px;
+      font-weight:bold;
+      line-height: 1.1em;
+      position: sticky;
+}
+
+.blocknav a {
+     text-decoration-line: none;
+}
+
+.blocknav .col {
+    padding: 10px;
+    padding-left: 20px;
+    border-right: 1px solid white;
+}
+
+
+.black {
+    background: black;
+    color: white;
+}
+
+.red {
+    background: black;
+    color: white;
+}
+
+.yellow {
+    background: black;
+    color: white;
+}
+
+.pink {
+    background: black;
+    color: white;
+    border-right: none;
+}
+
+/*hover and active effect on navigation .blocknav*/
+.black:hover {
+    background: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.red:hover,
+.redActive {
+    background: orangered;
+    color: white;
+}
+
+.yellow:hover,
+.yellowActive {
+    background: gold;
+    color: black;
+}
+
+.pink:hover,
+.pinkActive {
+    background: pink;
+    color: black;
+}
+
+/*chart img amd bottom line messages styling*/
+.pushChart {
+  width: 58.5%;
+  margin: 0 0 0 350px;
+  /*padding: 60px 15px 360px 0;*/
+  margin-top: 60px;
+  border: 0.5px solid lightgrey;
+}
+ 
+.btn-primary {
+  margin: 0 350px;
+  background-color: black;
+  border-color: black;
+}
+
+.card-body,
+.card {
+  margin: 0 350px;
+  color: black;
+}
+
+.bottomLine {
+  padding: 0 350px;
+  margin-top: 30px;
+}
+
+.bottomLineHeader {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.bottomLinePara {
+  font-weight: bold;
+  border-top: 10px solid orangered;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 1.3em;
+}
+
+@media (max-width:768px) {
+  .blocknav .col {
+      padding: 10px;
+      line-height: 1.1em;
+      justify-content: center;
+      font-size: 18px;
+  }
+
+.pushChart {
+  width: 100%;
+  padding: 15px 15px 0 0;
+  margin-left: 15px;
+  border: none;
+}
+
+.btn-primary {
+  margin-left: 20px;
+}
+
+.card-body,
+.card {
+  margin: 0 20px;
+}
+
+.bottomLine {
+  padding: 10px 15px;
+}
+
+.bottomLineHeader {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.bottomLinePara {
+  font-size: 18px;
+}
+}
+
